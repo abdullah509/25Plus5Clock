@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Sora', sans-serif;
+  background-color: #4364F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 15px;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  border: none;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display{
+  margin: -50px 20px 20px;
+}
+
+.display h2{
+  margin: 0;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.clock-container{
+  border: 2px solid white;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 10px;
+  width: 400px;
+
+}
+
+.clock-container span{
+  font-size: 60px;
+}
+
+.clock-container h1{
+  margin: 0;
+}
